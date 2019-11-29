@@ -1,6 +1,6 @@
 <?php
 //mysqli_connect() pens a new connection to the MySql server.
-$conn = mysqli_connect("localhost", "root", "whatever the server is");
+$conn = mysqli_connect("localhost", "root", "schema.sql");
 session_start();// Starting Session
 
 //Storing session
